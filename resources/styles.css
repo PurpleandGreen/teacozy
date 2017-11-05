@@ -8,7 +8,9 @@
   margin: 0;
 }
 
-
+div {
+  border: 1px solid red;
+}
 .header {
   display: flex;
   width: 100%
@@ -56,11 +58,11 @@ h2 {
 }
 
 /* having trouble figuring out how to get background image and text to move with the page when expanded.come back to this*/
+/* maincontainer holds all the content in the body of the page*/
 
 #mission {
   background-image: url("../resources/images/img-mission-background.jpg");
-  display: flex;
-
+  display: block;
   position: relative;
   background-size: cover;
   background-position: top;
@@ -70,6 +72,7 @@ h2 {
 }
 
 #mission .content {
+  display: block;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -77,6 +80,13 @@ h2 {
 }
 
 #totm {
+  display: block;
   padding-top: 50px;
-  position: static;
+  position: fixed;
+  text-align: center;
+  position: relative;
+  max-width: 1200px;
+  min-width: 1200px; 
+  margin-left: 60px;
+
 }
