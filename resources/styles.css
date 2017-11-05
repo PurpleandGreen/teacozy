@@ -1,26 +1,69 @@
 
 * {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   color:seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 
+
 .header {
+  display: flex;
   width: 100%
   height: 69px;
   border-bottom: 1px solid seashell;
-  position: fixed;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
+/* .header img is for the logo Tea Cozy image*/
 .header img {
-  height: 50px;
-  margin-left: 10px; 
-
+  max-height: 50px;
+  margin-left: 10px;
+  margin-bottom: 9.5px;
+  padding-right:20px;
 }
 
-.header a {
-  text-decoration: underline;
+.navigation {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom:9.5px;
+  justify-content: space-between;
+}
 
+a {
+  display: inline-flex;
+  text-decoration: underline;
+  padding-left: 15px;
+  justify-content: flex-end;
+}
+
+h2, h4 {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#mission {
+  background-image: url("../resources/images/img-mission-background.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  height: 700px;
+  width: 1200px;
+  margin-left: 60px;
+}
+
+#mission .content {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 303px;
 }
