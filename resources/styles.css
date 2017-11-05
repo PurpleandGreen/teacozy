@@ -55,6 +55,8 @@ h2 {
   font-size: 35px;
 }
 
+/* having trouble figuring out how to get background image and text to move with the page when expanded.come back to this*/
+
 #mission {
   background-image: url("../resources/images/img-mission-background.jpg");
   display: flex;
