@@ -7,10 +7,10 @@
   opacity: 0.9;
   margin: 0;
 }
-
 div {
   border: 1px solid red;
 }
+
 .header {
   display: flex;
   width: 100%
@@ -100,6 +100,7 @@ h2 {
   margin-left: 160px;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 10px;
 }
 
 .fallberry img {
@@ -120,9 +121,22 @@ h2 {
 .myrtle img {
   width: 300px;
   height: 200px;
+  padding-left: 175px;
 }
 
 .bedford img {
   width: 300px;
   height: 200px;
+  padding-right: 175px;
+}
+
+.myrtle h4 {
+  padding-left: 175px;
+}
+
+.bedford h4 {
+  padding-right: 175px;
+}
+.myrtle, .bedford {
+  padding-top: 20px;
 }
