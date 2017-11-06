@@ -86,7 +86,43 @@ h2 {
   text-align: center;
   position: relative;
   max-width: 1200px;
-  min-width: 1200px; 
+  min-width: 1200px;
   margin-left: 60px;
+}
 
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin-left: 160px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fallberry img {
+  width: 300px;
+  height: 200px;
+}
+
+.spicedrum img {
+  width: 300px;
+  height: 200px;
+}
+
+.seasonaldonuts img {
+  width: 300px;
+  height: 200px;
+}
+
+.myrtle img {
+  width: 300px;
+  height: 200px;
+}
+
+.bedford img {
+  width: 300px;
+  height: 200px;
 }
