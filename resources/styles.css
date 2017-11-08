@@ -1,5 +1,5 @@
 
-* {
+body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color:seashell;
@@ -42,6 +42,7 @@ div {
 a {
   display: inline-flex;
   text-decoration: underline;
+  color: seashell;
   padding-left: 15px;
   justify-content: flex-end;
 }
@@ -49,7 +50,6 @@ a {
 h2, h4 {
   text-align: center;
   position:relative;
-  padding: 10px 10px;
 }
 
 h2 {
@@ -75,8 +75,11 @@ h2 {
   display: block;
   position: absolute;
   text-align: center;
+  height: auto;
   width: 100%;
   top: 303px;
+  background-color: black;
+  opacity: 0.9;
 }
 
 #totm {
@@ -139,4 +142,121 @@ h2 {
 }
 .myrtle, .bedford {
   padding-top: 20px;
+}
+
+.locationscontainer {
+  display: inline-block;
+  flex-direction: row;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  background-image: url("../resources/images/img-locations-background.jpg");
+  background-position: center;
+  flex-direction: row;
+  margin-top: 100px;
+  width: 1200px;
+  height: 500px;
+  margin-left: 60px;
+}
+
+.locations {
+  display: block;
+  position: center;
+  height: auto;
+  width: 1200px;
+  padding: 0px;
+  margin-top: 0px;
+  background-color: transparent;
+}
+
+.address1 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-flow: row;
+  background-color: black;
+  opacity: 1;
+  margin-left: 110px;
+  margin-right: 40px;
+  bottom: 100px;
+  padding: 0;
+}
+
+.address1 h3 {
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  padding: 0px, 0px;
+  background-color: none;
+}
+
+.address1 h4 {
+  align-items: center;
+  width: 300px;
+  padding: 0px, 0px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.address2 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  flex-direction:row;
+  flex-flow: row;
+  background-color: black;
+  opacity: 1;
+  margin-left: 0px;
+  margin-right: 40px;
+  bottom: 100px;
+  padding: 0;
+}
+
+.address2 h3 {
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  padding: 0px, 0px;
+  background-color: none;
+}
+
+.address2 h4 {
+  align-items: center;
+  width: 300px;
+  padding: 0px, 0px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.address3 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: row;
+  background-color: black;
+  opacity: 1;
+  margin-left: 0px;
+  bottom: 100px;
+  padding: 0;
+}
+
+.address3 h3 {
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  padding: 0px, 0px;
+  background-color: none;
+}
+
+.address3 h4 {
+  align-items: center;
+  width: 300px;
+  padding: 0px, 0px;
+  text-align: center;
+  font-weight: normal;
 }
