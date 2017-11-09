@@ -7,9 +7,11 @@ body {
   opacity: 0.9;
   margin: 0;
 }
-div {
+/* graying this out but may want it for further work after review:
+ div {
   border: 1px solid red;
 }
+*/
 
 .header {
   display: flex;
@@ -74,8 +76,8 @@ h2 {
 #mission .content {
   display: block;
   position: absolute;
-  text-align: center;
-  height: auto;
+  vertical-align: center;
+  height: 150px;
   width: 100%;
   top: 303px;
   background-color: black;
@@ -162,18 +164,21 @@ h2 {
 .locations {
   display: block;
   position: center;
-  height: auto;
+  height: 62px;
   width: 1200px;
-  padding: 0px;
-  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-top: 40px;
   background-color: transparent;
-}
 
+}
+/* can't figure out how to align the text in the address boxes as shown in redline,
+also don't know how to position the image inside the box to show as in the redline.
+the cup should be lower in the flexbox for this, I think?*/
 .address1 {
   display: inline-block;
   width: 300px;
   height: 300px;
-  align-items: flex-start;
+  justify-content: center;
   flex-direction: row;
   flex-flow: row;
   background-color: black;
@@ -182,14 +187,16 @@ h2 {
   margin-right: 40px;
   bottom: 100px;
   padding: 0;
+  top: 20%
 }
 
 .address1 h3 {
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   width: 300px;
   padding: 0px, 0px;
   background-color: none;
+  top: 30%;
 }
 
 .address1 h4 {
@@ -198,6 +205,7 @@ h2 {
   padding: 0px, 0px;
   text-align: center;
   font-weight: normal;
+  justify-content: space-between
 }
 
 .address2 {
@@ -259,4 +267,15 @@ h2 {
   padding: 0px, 0px;
   text-align: center;
   font-weight: normal;
+}
+
+.contact {
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.footer {
+  margin-left: 20px;
 }
